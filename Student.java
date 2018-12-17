@@ -32,6 +32,11 @@ public class Student {
         return this.name;
     }
 
+    public void setName(String name)
+    {
+      this.name = name;
+    }
+
     public String getLastname()
     {
         return this.lastname;
